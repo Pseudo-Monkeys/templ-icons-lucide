@@ -1,0 +1,24 @@
+package lucide
+
+import "Pseudo-Monkeys/templ-icons-lucide/utils"
+
+templ Menu(props utils.IconsProps){
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+
+        width={utils.CheckValue(props.Size, "24")}
+        height={utils.CheckValue(props.Size, "24")}
+        viewBox={utils.CheckValue(props.ViewBox, "0 0 24 24")}
+        fill={utils.CheckValue(props.Fill, "none")}
+        stroke={utils.CheckValue(props.Stroke, "currentColor")}
+        stroke-width={utils.CheckValue(props.StrokeWidth, "2")}
+        stroke-linecap={utils.CheckValue(props.StrokeLinecap, "round")}
+        stroke-linejoin={utils.CheckValue(props.StrokeLinejoin, "round")}
+        class={utils.CheckValue(props.Class, "lucide lucide-menu")}
+    >
+        <line x1="4" x2="20" y1="12" y2="12"/>
+        <line x1="4" x2="20" y1="6" y2="6"/>
+        <line x1="4" x2="20" y1="18" y2="18"/>
+    </svg>
+}
+
