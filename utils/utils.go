@@ -7,3 +7,14 @@ func CheckValue(currentValue, defaultValue string) string {
 
     return defaultValue
 }
+
+type IconProps struct {
+    Class,
+    ViewBox,
+    Fill,
+    Stroke,
+    StrokeWidth,
+    StrokeLinecap,
+    StrokeLinejoin,
+    Size string
+}
