@@ -8,7 +8,7 @@ package lucide
 import "github.com/a-h/templ"
 import templruntime "github.com/a-h/templ/runtime"
 
-import "Pseudo-Monkeys/templ-icons-lucide/utils"
+import "github.com/Pseudo-Monkeys/templ-icons-lucide/utils"
 
 func TextCursor(props utils.IconProps) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
@@ -43,7 +43,7 @@ func TextCursor(props utils.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<path d=\"M17 22h-1a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4h1\"></path> <path d=\"M7 22h1a4 4 0 0 0 4-4v-1\"></path> <path d=\"M7 2h1a4 4 0 0 1 4 4v1\"></path>")
+			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

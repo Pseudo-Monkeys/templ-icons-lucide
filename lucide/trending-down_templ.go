@@ -8,7 +8,7 @@ package lucide
 import "github.com/a-h/templ"
 import templruntime "github.com/a-h/templ/runtime"
 
-import "Pseudo-Monkeys/templ-icons-lucide/utils"
+import "github.com/Pseudo-Monkeys/templ-icons-lucide/utils"
 
 func TrendingDown(props utils.IconProps) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
@@ -43,7 +43,7 @@ func TrendingDown(props utils.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<polyline points=\"22 17 13.5 8.5 8.5 13.5 2 7\"></polyline> <polyline points=\"16 17 22 17 22 11\"></polyline>")
+			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
