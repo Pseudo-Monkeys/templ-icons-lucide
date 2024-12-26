@@ -43,7 +43,7 @@ func EyeClosed(props utils.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<path d=\"m15 18-.722-3.25\"></path> <path d=\"M2 8a10.645 10.645 0 0 0 20 0\"></path> <path d=\"m20 15-1.726-2.05\"></path> <path d=\"m4 15 1.726-2.05\"></path> <path d=\"m9 18 .722-3.25\"></path>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

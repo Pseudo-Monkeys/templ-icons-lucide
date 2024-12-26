@@ -43,7 +43,7 @@ func MoonStar(props utils.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<path d=\"M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9\"></path> <path d=\"M20 3v4\"></path> <path d=\"M22 5h-4\"></path>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
