@@ -3,3 +3,4 @@ lucide/*.txt
 utils/*.txt
 go.work.sum
 go.work
+lucide/allIcons.go
