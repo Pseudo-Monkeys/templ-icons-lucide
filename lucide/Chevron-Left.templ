@@ -1,21 +1,11 @@
 package lucide
 
-import IconProps "Pseudo-Monkeys/templ-icons-lucide/utils"
+import "Pseudo-Monkeys/templ-icons-lucide/utils"
 
-templ ChevronLeft(props IconProps){
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
 
-        width={utils.CheckValue(props.Size, "24")}
-        height={utils.CheckValue(props.Size, "24")}
-        viewBox={utils.CheckValue(props.ViewBox, "0 0 24 24")}
-        fill={utils.CheckValue(props.Fill, "none")}
-        stroke={utils.CheckValue(props.Stroke, "currentColor")}
-        stroke-width={utils.CheckValue(props.StrokeWidth, "2")}
-        stroke-linecap={utils.CheckValue(props.StrokeLinecap, "round")}
-        stroke-linejoin={utils.CheckValue(props.StrokeLinejoin, "round")}
-        class={utils.CheckValue(props.Class, "lucide lucide-chevron-left")}
-    >
+
+templ ChevronLeft(props utils.IconProps){
+    @utils.BasicIcon(props){
         <path d="m15 18-6-6 6-6"/>
-    </svg>
+    }
 }
