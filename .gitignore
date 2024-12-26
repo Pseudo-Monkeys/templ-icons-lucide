@@ -1,4 +1,5 @@
 test
 lucide/*.txt
+utils/*.txt
 go.work.sum
 go.work
