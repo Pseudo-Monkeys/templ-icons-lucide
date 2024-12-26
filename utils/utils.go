@@ -20,7 +20,7 @@ type IconProps struct {
     Size string
 }
 
-func getBasicProps(props IconProps) *templ.Attributes{
+func getBasicProps(props IconProps, iconClass string) *templ.Attributes{
     return &templ.Attributes{
         "xmlns":"http://www.w3.org/2000/svg",
         "width":CheckValue(props.Size, "24"),
@@ -31,7 +31,7 @@ func getBasicProps(props IconProps) *templ.Attributes{
         "stroke-width":CheckValue(props.StrokeWidth, "2"),
         "stroke-linecap":CheckValue(props.StrokeLinecap, "round"),
         "stroke-linejoin":CheckValue(props.StrokeLinejoin, "round"),
-        "class":CheckValue(props.Class, "lucide lucide-chevron-left"),
+        "class":props.Class + " lucide " + iconClass,
         "style":"display:block;",
     }
 }
