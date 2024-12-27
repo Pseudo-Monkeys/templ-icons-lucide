@@ -1,6 +1,7 @@
 Templ Icon Components (Lucide Icons)
 ====================================
 
+![some templ icons](https://imgur.com/a/OmqgSW7)
 Welcome to Icon Components Library for [Templ](https://templ.guide) in GOLang.
 It aims to allow easy access to a multitude of icons in your templ components.
 
