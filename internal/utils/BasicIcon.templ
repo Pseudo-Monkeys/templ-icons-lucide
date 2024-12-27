@@ -1,0 +1,11 @@
+package utils
+
+import "github.com/Pseudo-Monkeys/templ-icons-lucide/lib"
+
+templ BasicIcon(props lib.IconProps, iconClass string) {
+    <svg
+        { *getBasicProps(props, iconClass)...}
+    >
+    { children... }
+    </svg>
+}

@@ -1,8 +1,9 @@
 package lucide
 
-import "github.com/Pseudo-Monkeys/templ-icons-lucide/utils"
+import "github.com/Pseudo-Monkeys/templ-icons-lucide/internal/utils"
+import "github.com/Pseudo-Monkeys/templ-icons-lucide/lib"
 
-templ PersonStanding(props utils.IconProps){
+templ PersonStanding(props lib.IconProps){
     @utils.BasicIcon(props, "lucide-person-standing"){
         <circle cx="12" cy="5" r="1"/>
         <path d="m9 20 3-6 3 6"/>

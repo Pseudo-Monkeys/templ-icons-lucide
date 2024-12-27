@@ -1,6 +1,9 @@
 package utils
 
-import "github.com/a-h/templ"
+import (
+	"github.com/Pseudo-Monkeys/templ-icons-lucide/lib"
+	"github.com/a-h/templ"
+)
 
 func CheckValue(currentValue, defaultValue string) string {
     if currentValue == "" {
@@ -9,18 +12,7 @@ func CheckValue(currentValue, defaultValue string) string {
     return currentValue
 }
 
-type IconProps struct {
-    Class,
-    ViewBox,
-    Fill,
-    Stroke,
-    StrokeWidth,
-    StrokeLinecap,
-    StrokeLinejoin,
-    Size string
-}
-
-func getBasicProps(props IconProps, iconClass string) *templ.Attributes{
+func getBasicProps(props lib.IconProps, iconClass string) *templ.Attributes{
     return &templ.Attributes{
         "xmlns":"http://www.w3.org/2000/svg",
         "width":CheckValue(props.Size, "24"),
