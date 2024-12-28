@@ -44,7 +44,7 @@ func Rewind(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<polygon points=\"11 19 2 12 11 5 11 19\"></polygon> <polygon points=\"22 19 13 12 22 5 22 19\"></polygon>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

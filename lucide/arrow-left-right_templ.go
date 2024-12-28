@@ -44,7 +44,7 @@ func ArrowLeftRight(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<path d=\"M8 3 4 7l4 4\"></path> <path d=\"M4 7h16\"></path> <path d=\"m16 21 4-4-4-4\"></path> <path d=\"M20 17H4\"></path>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

@@ -44,7 +44,7 @@ func Gem(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<path d=\"M6 3h12l4 6-10 13L2 9Z\"></path> <path d=\"M11 3 8 9l4 13 4-13-3-6\"></path> <path d=\"M2 9h20\"></path>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

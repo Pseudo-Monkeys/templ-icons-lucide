@@ -44,7 +44,7 @@ func Sheet(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\" ry=\"2\"></rect><line x1=\"3\" x2=\"21\" y1=\"9\" y2=\"9\"></line><line x1=\"3\" x2=\"21\" y1=\"15\" y2=\"15\"></line><line x1=\"9\" x2=\"9\" y1=\"9\" y2=\"21\"></line><line x1=\"15\" x2=\"15\" y1=\"9\" y2=\"21\"></line>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

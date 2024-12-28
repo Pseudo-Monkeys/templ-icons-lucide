@@ -44,7 +44,7 @@ func ALargeSmall(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<path d=\"M21 14h-5\"></path><path d=\"M16 16v-3.5a2.5 2.5 0 0 1 5 0V16\"></path><path d=\"M4.5 13h6\"></path><path d=\"m3 16 4.5-9 4.5 9\"></path>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

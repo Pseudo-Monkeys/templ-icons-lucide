@@ -44,7 +44,7 @@ func TrendingUp(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<polyline points=\"22 7 13.5 15.5 8.5 10.5 2 17\"></polyline> <polyline points=\"16 7 22 7 22 13\"></polyline>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

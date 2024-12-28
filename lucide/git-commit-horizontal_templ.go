@@ -44,7 +44,7 @@ func GitCommitHorizontal(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<circle cx=\"12\" cy=\"12\" r=\"3\"></circle> <line x1=\"3\" x2=\"9\" y1=\"12\" y2=\"12\"></line> <line x1=\"15\" x2=\"21\" y1=\"12\" y2=\"12\"></line>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

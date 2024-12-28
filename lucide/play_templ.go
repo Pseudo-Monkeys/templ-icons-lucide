@@ -44,7 +44,7 @@ func Play(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<polygon points=\"6 3 20 12 6 21 6 3\"></polygon>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

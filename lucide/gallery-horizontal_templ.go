@@ -44,7 +44,7 @@ func GalleryHorizontal(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<path d=\"M2 3v18\"></path> <rect width=\"12\" height=\"18\" x=\"6\" y=\"3\" rx=\"2\"></rect> <path d=\"M22 3v18\"></path>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

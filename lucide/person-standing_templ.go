@@ -44,7 +44,7 @@ func PersonStanding(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<circle cx=\"12\" cy=\"5\" r=\"1\"></circle> <path d=\"m9 20 3-6 3 6\"></path> <path d=\"m6 8 6 2 6-2\"></path> <path d=\"M12 10v4\"></path>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

@@ -44,7 +44,7 @@ func ArrowDownUp(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<path d=\"m3 16 4 4 4-4\"></path> <path d=\"M7 20V4\"></path> <path d=\"m21 8-4-4-4 4\"></path> <path d=\"M17 4v16\"></path>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

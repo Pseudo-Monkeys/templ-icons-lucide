@@ -44,7 +44,7 @@ func Maximize2(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<polyline points=\"15 3 21 3 21 9\"></polyline> <polyline points=\"9 21 3 21 3 15\"></polyline> <line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line> <line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

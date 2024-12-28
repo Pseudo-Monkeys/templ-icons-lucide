@@ -56,7 +56,7 @@ func Paperclip(props lib.IconProps) templ.Component {
 					}()
 				}
 				ctx = templ.InitializeContext(ctx)
-				templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+				_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<path d=\"M13.234 20.252 21 12.3\"></path><path d=\"m16 6-8.414 8.586a2 2 0 0 0 0 2.828 2 2 0 0 0 2.828 0l8.414-8.586a4 4 0 0 0 0-5.656 4 4 0 0 0-5.656 0l-8.415 8.585a6 6 0 1 0 8.486 8.486\"></path>")
 				if templ_7745c5c3_Err != nil {
 					return templ_7745c5c3_Err
 				}

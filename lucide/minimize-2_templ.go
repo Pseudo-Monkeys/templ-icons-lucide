@@ -44,7 +44,7 @@ func Minimize2(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<polyline points=\"4 14 10 14 10 20\"></polyline> <polyline points=\"20 10 14 10 14 4\"></polyline> <line x1=\"14\" x2=\"21\" y1=\"10\" y2=\"3\"></line> <line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

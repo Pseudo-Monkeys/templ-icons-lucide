@@ -44,7 +44,7 @@ func ArrowDownNarrowWide(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<path d=\"m3 16 4 4 4-4\"></path> <path d=\"M7 20V4\"></path> <path d=\"M11 4h4\"></path> <path d=\"M11 8h7\"></path> <path d=\"M11 12h10\"></path>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

@@ -44,7 +44,7 @@ func Move(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<path d=\"M12 2v20\"></path> <path d=\"m15 19-3 3-3-3\"></path> <path d=\"m19 9 3 3-3 3\"></path> <path d=\"M2 12h20\"></path> <path d=\"m5 9-3 3 3 3\"></path> <path d=\"m9 5 3-3 3 3\"></path>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

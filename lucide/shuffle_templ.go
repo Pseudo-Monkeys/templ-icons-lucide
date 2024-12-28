@@ -44,7 +44,7 @@ func Shuffle(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<path d=\"m18 14 4 4-4 4\"></path> <path d=\"m18 2 4 4-4 4\"></path> <path d=\"M2 18h1.973a4 4 0 0 0 3.3-1.7l5.454-8.6a4 4 0 0 1 3.3-1.7H22\"></path> <path d=\"M2 6h1.972a4 4 0 0 1 3.6 2.2\"></path> <path d=\"M22 18h-6.041a4 4 0 0 1-3.3-1.8l-.359-.45\"></path>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

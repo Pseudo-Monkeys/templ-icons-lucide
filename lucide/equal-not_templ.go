@@ -44,7 +44,7 @@ func EqualNot(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<line x1=\"5\" x2=\"19\" y1=\"9\" y2=\"9\"></line> <line x1=\"5\" x2=\"19\" y1=\"15\" y2=\"15\"></line> <line x1=\"19\" x2=\"5\" y1=\"5\" y2=\"19\"></line>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

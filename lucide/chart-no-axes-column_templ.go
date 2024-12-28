@@ -44,7 +44,7 @@ func ChartNoAxesColumn(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<line x1=\"18\" x2=\"18\" y1=\"20\" y2=\"10\"></line> <line x1=\"12\" x2=\"12\" y1=\"20\" y2=\"4\"></line> <line x1=\"6\" x2=\"6\" y1=\"20\" y2=\"14\"></line>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

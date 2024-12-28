@@ -44,7 +44,7 @@ func ChartColumn(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<path d=\"M3 3v16a2 2 0 0 0 2 2h16\"></path> <path d=\"M18 17V9\"></path> <path d=\"M13 17V5\"></path> <path d=\"M8 17v-3\"></path>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

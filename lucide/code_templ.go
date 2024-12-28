@@ -44,7 +44,7 @@ func Code(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<polyline points=\"16 18 22 12 16 6\"></polyline> <polyline points=\"8 6 2 12 8 18\"></polyline>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

@@ -44,7 +44,7 @@ func FastForward(props lib.IconProps) templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templ.WriteWatchModeString(templ_7745c5c3_Buffer, 1)
+			_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<polygon points=\"13 19 22 12 13 5 13 19\"></polygon> <polygon points=\"2 19 11 12 2 5 2 19\"></polygon>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
